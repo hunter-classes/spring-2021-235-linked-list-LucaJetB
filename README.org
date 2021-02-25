@@ -1,11 +1,11 @@
 * Fall 2021 235 Linked List Project
 
 * Last name:
-
+Burlacu
 * First name:
-
+Luca
 * GitHub username:
-
+LucaJetB
 * Notes:
 
 Due dates: 
