@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "Dlist.h"
 #include "List.h"
 int main(int argc, char *argv[])
 {
@@ -21,6 +21,15 @@ int main(int argc, char *argv[])
   std::cout << l2->toString() << std::endl;
   l2->remove(3);
   std::cout << l2->toString() << std::endl;
+
+  Dlist *l3 = new Dlist();
+  std::cout << l3->toString() << std::endl;
+
+  l3->insert("a");
+  l3->insert("b");
+  l3->insert("c");
+  l3->insert(1,"X");
+  std::cout << l3->toString() << std::endl;
   return 0;
 }
 
